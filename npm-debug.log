@@ -1,0 +1,644 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install', 'angular2-rest', '--save' ]
+2 info using npm@1.4.17
+3 info using node@v0.10.29
+4 verbose node symlink /usr/bin/node
+5 warn package.json angular2-quickstart@1.0.0 No description
+6 warn package.json angular2-quickstart@1.0.0 No repository field.
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'angular2-rest', null ]
+9 verbose cache add name=undefined spec="angular2-rest" args=["angular2-rest",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'angular2-rest',
+10 verbose parsed url   path: 'angular2-rest',
+10 verbose parsed url   href: 'angular2-rest' }
+11 silly lockFile 3253f6ad-angular2-rest angular2-rest
+12 verbose lock angular2-rest /home/gabriel/.npm/3253f6ad-angular2-rest.lock
+13 silly lockFile 3253f6ad-angular2-rest angular2-rest
+14 silly lockFile 3253f6ad-angular2-rest angular2-rest
+15 verbose addNamed [ 'angular2-rest', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 7a02208c-angular2-rest angular2-rest@
+18 verbose lock angular2-rest@ /home/gabriel/.npm/7a02208c-angular2-rest.lock
+19 silly addNameRange { name: 'angular2-rest', range: '*', hasData: false }
+20 verbose request where is /angular2-rest
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id bc37a45f5385a664
+23 verbose url raw /angular2-rest
+24 verbose url resolving [ 'https://registry.npmjs.org/', './angular2-rest' ]
+25 verbose url resolved https://registry.npmjs.org/angular2-rest
+26 verbose request where is https://registry.npmjs.org/angular2-rest
+27 info trying registry request attempt 1 at 23:04:30
+28 verbose etag "2EH0K1EFKC3QMP4Q8J8FYPQAN"
+29 http GET https://registry.npmjs.org/angular2-rest
+30 http 304 https://registry.npmjs.org/angular2-rest
+31 silly registry.get cb [ 304,
+31 silly registry.get   { date: 'Fri, 05 Feb 2016 22:04:32 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     'cache-control': 'max-age=300',
+31 silly registry.get     etag: '"2EH0K1EFKC3QMP4Q8J8FYPQAN"',
+31 silly registry.get     age: '0',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-lhr6329-LHR',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1454709872.246351,VS0,VE587',
+31 silly registry.get     vary: 'Accept' } ]
+32 verbose etag https://registry.npmjs.org/angular2-rest from cache
+33 silly addNameRange number 2 { name: 'angular2-rest', range: '*', hasData: true }
+34 silly addNameRange versions [ 'angular2-rest', [ '0.0.1', '0.0.2', '0.1.0' ] ]
+35 verbose addNamed [ 'angular2-rest', '0.1.0' ]
+36 verbose addNamed [ '0.1.0', '0.1.0' ]
+37 silly lockFile bb4927d7-angular2-rest-0-1-0 angular2-rest@0.1.0
+38 verbose lock angular2-rest@0.1.0 /home/gabriel/.npm/bb4927d7-angular2-rest-0-1-0.lock
+39 silly lockFile bb4927d7-angular2-rest-0-1-0 angular2-rest@0.1.0
+40 silly lockFile bb4927d7-angular2-rest-0-1-0 angular2-rest@0.1.0
+41 silly lockFile 7a02208c-angular2-rest angular2-rest@
+42 silly lockFile 7a02208c-angular2-rest angular2-rest@
+43 silly resolved [ { name: 'angular2-rest',
+43 silly resolved     version: '0.1.0',
+43 silly resolved     description: 'Angular2 HTTP client to consume RESTful services.',
+43 silly resolved     typings: './angular2-rest.d.ts',
+43 silly resolved     scripts: { test: 'gulp test' },
+43 silly resolved     repository:
+43 silly resolved      { type: 'git',
+43 silly resolved        url: 'git+https://github.com/Paldom/angular2-rest.git' },
+43 silly resolved     keywords: [ 'angular2', 'angulario', 'http', 'rest', 'client' ],
+43 silly resolved     author: { name: 'Domonkos Pal', email: 'Paldom' },
+43 silly resolved     license: 'MIT',
+43 silly resolved     bugs: { url: 'https://github.com/Paldom/angular2-rest/issues' },
+43 silly resolved     homepage: 'https://github.com/Paldom/angular2-rest#readme',
+43 silly resolved     dependencies:
+43 silly resolved      { angular2: '^2.0.0-beta.0',
+43 silly resolved        'es6-promise': '^3.0.2',
+43 silly resolved        'es6-shim': '^0.33.13',
+43 silly resolved        'reflect-metadata': '^0.1.2',
+43 silly resolved        rxjs: '^5.0.0-beta.0',
+43 silly resolved        'zone.js': '^0.5.10' },
+43 silly resolved     devDependencies:
+43 silly resolved      { gulp: '^3.9.0',
+43 silly resolved        'gulp-jasmine': '^2.2.1',
+43 silly resolved        'gulp-rename': '^1.2.2',
+43 silly resolved        'gulp-sourcemaps': '^1.6.0',
+43 silly resolved        'gulp-tsc': '^1.1.4',
+43 silly resolved        'gulp-typedoc': '^1.2.1',
+43 silly resolved        'gulp-typescript': '^2.10.0',
+43 silly resolved        'gulp-uglify': '^1.5.1',
+43 silly resolved        'object-merge': '^2.5.1' },
+43 silly resolved     gitHead: '54ef8658f88207266068388dd6ee61d403b933a5',
+43 silly resolved     _id: 'angular2-rest@0.1.0',
+43 silly resolved     _shasum: '6301d894e1ad4b15f3cb775f69781faf14d51669',
+43 silly resolved     _from: 'angular2-rest@',
+43 silly resolved     _npmVersion: '2.11.3',
+43 silly resolved     _nodeVersion: '0.12.7',
+43 silly resolved     _npmUser: { name: 'paldom', email: 'public@dpal.hu' },
+43 silly resolved     dist:
+43 silly resolved      { shasum: '6301d894e1ad4b15f3cb775f69781faf14d51669',
+43 silly resolved        tarball: 'http://registry.npmjs.org/angular2-rest/-/angular2-rest-0.1.0.tgz' },
+43 silly resolved     maintainers: [ [Object] ],
+43 silly resolved     directories: {},
+43 silly resolved     _resolved: 'https://registry.npmjs.org/angular2-rest/-/angular2-rest-0.1.0.tgz',
+43 silly resolved     readme: 'ERROR: No README data found!' } ]
+44 info install angular2-rest@0.1.0 into /home/gabriel/Projects/CRM-angular-test
+45 info installOne angular2-rest@0.1.0
+46 verbose node_modules/angular2-rest unbuild
+47 verbose tar unpack /home/gabriel/.npm/angular2-rest/0.1.0/package.tgz
+48 silly lockFile e2a4d79f--test-node-modules-angular2-rest tar:///home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest
+49 verbose lock tar:///home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest /home/gabriel/.npm/e2a4d79f--test-node-modules-angular2-rest.lock
+50 silly lockFile 8d6864b7--angular2-rest-0-1-0-package-tgz tar:///home/gabriel/.npm/angular2-rest/0.1.0/package.tgz
+51 verbose lock tar:///home/gabriel/.npm/angular2-rest/0.1.0/package.tgz /home/gabriel/.npm/8d6864b7--angular2-rest-0-1-0-package-tgz.lock
+52 silly gunzTarPerm modes [ '751', '640' ]
+53 silly gunzTarPerm extractEntry package.json
+54 silly gunzTarPerm modified mode [ 'package.json', 420, 416 ]
+55 silly gunzTarPerm extractEntry .npmignore
+56 silly gunzTarPerm modified mode [ '.npmignore', 420, 416 ]
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm modified mode [ 'README.md', 420, 416 ]
+59 silly gunzTarPerm extractEntry LICENSE
+60 silly gunzTarPerm modified mode [ 'LICENSE', 420, 416 ]
+61 silly gunzTarPerm extractEntry angular2-rest.js
+62 silly gunzTarPerm modified mode [ 'angular2-rest.js', 420, 416 ]
+63 silly gunzTarPerm extractEntry gulpfile.js
+64 silly gunzTarPerm modified mode [ 'gulpfile.js', 420, 416 ]
+65 silly gunzTarPerm extractEntry .gitattributes
+66 silly gunzTarPerm modified mode [ '.gitattributes', 420, 416 ]
+67 silly gunzTarPerm extractEntry angular2-rest.d.ts
+68 silly gunzTarPerm modified mode [ 'angular2-rest.d.ts', 420, 416 ]
+69 silly gunzTarPerm extractEntry .editorconfig
+70 silly gunzTarPerm modified mode [ '.editorconfig', 420, 416 ]
+71 silly gunzTarPerm extractEntry angular2-rest.js.map
+72 silly gunzTarPerm modified mode [ 'angular2-rest.js.map', 420, 416 ]
+73 silly gunzTarPerm extractEntry angular2-rest.ts
+74 silly gunzTarPerm modified mode [ 'angular2-rest.ts', 420, 416 ]
+75 silly gunzTarPerm extractEntry docs/assets/css/main.css
+76 silly gunzTarPerm modified mode [ 'docs/assets/css/main.css', 420, 416 ]
+77 silly gunzTarPerm extractEntry docs/assets/css/main.css.map
+78 silly gunzTarPerm modified mode [ 'docs/assets/css/main.css.map', 420, 416 ]
+79 silly gunzTarPerm extractEntry docs/assets/images/icons.png
+80 silly gunzTarPerm modified mode [ 'docs/assets/images/icons.png', 420, 416 ]
+81 silly gunzTarPerm extractEntry docs/assets/images/icons@2x.png
+82 silly gunzTarPerm modified mode [ 'docs/assets/images/icons@2x.png', 420, 416 ]
+83 silly gunzTarPerm extractEntry docs/assets/images/widgets.png
+84 silly gunzTarPerm modified mode [ 'docs/assets/images/widgets.png', 484, 480 ]
+85 silly gunzTarPerm extractEntry docs/assets/images/widgets@2x.png
+86 silly gunzTarPerm modified mode [ 'docs/assets/images/widgets@2x.png', 484, 480 ]
+87 silly gunzTarPerm extractEntry docs/assets/js/main.js
+88 silly gunzTarPerm modified mode [ 'docs/assets/js/main.js', 484, 480 ]
+89 silly gunzTarPerm extractEntry docs/assets/js/modernizr.js
+90 silly gunzTarPerm modified mode [ 'docs/assets/js/modernizr.js', 484, 480 ]
+91 silly gunzTarPerm extractEntry docs/assets/js/search.js
+92 silly gunzTarPerm modified mode [ 'docs/assets/js/search.js', 420, 416 ]
+93 silly gunzTarPerm extractEntry docs/classes/_angular2_rest_.restclient.html
+94 silly gunzTarPerm modified mode [ 'docs/classes/_angular2_rest_.restclient.html', 420, 416 ]
+95 silly gunzTarPerm extractEntry docs/globals.html
+96 silly gunzTarPerm modified mode [ 'docs/globals.html', 420, 416 ]
+97 silly gunzTarPerm extractEntry docs/index.html
+98 silly gunzTarPerm modified mode [ 'docs/index.html', 420, 416 ]
+99 silly gunzTarPerm extractEntry docs/modules/_angular2_rest_.html
+100 silly gunzTarPerm modified mode [ 'docs/modules/_angular2_rest_.html', 420, 416 ]
+101 silly gunzTarPerm extractEntry spec/support/jasmine.json
+102 silly gunzTarPerm modified mode [ 'spec/support/jasmine.json', 420, 416 ]
+103 silly gunzTarPerm extractEntry spec/support/rest_spec.ts
+104 silly gunzTarPerm modified mode [ 'spec/support/rest_spec.ts', 420, 416 ]
+105 silly gunzTarPerm extractEntry .travis.yml
+106 silly gunzTarPerm modified mode [ '.travis.yml', 420, 416 ]
+107 silly gunzTarPerm extractEntry tsconfig.json
+108 silly gunzTarPerm modified mode [ 'tsconfig.json', 420, 416 ]
+109 silly lockFile e2a4d79f--test-node-modules-angular2-rest tar:///home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest
+110 silly lockFile e2a4d79f--test-node-modules-angular2-rest tar:///home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest
+111 silly lockFile 8d6864b7--angular2-rest-0-1-0-package-tgz tar:///home/gabriel/.npm/angular2-rest/0.1.0/package.tgz
+112 silly lockFile 8d6864b7--angular2-rest-0-1-0-package-tgz tar:///home/gabriel/.npm/angular2-rest/0.1.0/package.tgz
+113 info preinstall angular2-rest@0.1.0
+114 verbose readDependencies using package.json deps
+115 verbose readDependencies using package.json deps
+116 verbose cache add [ 'zone.js@^0.5.10', null ]
+117 verbose cache add name=undefined spec="zone.js@^0.5.10" args=["zone.js@^0.5.10",null]
+118 verbose parsed url { protocol: null,
+118 verbose parsed url   slashes: null,
+118 verbose parsed url   auth: null,
+118 verbose parsed url   host: null,
+118 verbose parsed url   port: null,
+118 verbose parsed url   hostname: null,
+118 verbose parsed url   hash: null,
+118 verbose parsed url   search: null,
+118 verbose parsed url   query: null,
+118 verbose parsed url   pathname: 'zone.js@^0.5.10',
+118 verbose parsed url   path: 'zone.js@^0.5.10',
+118 verbose parsed url   href: 'zone.js@^0.5.10' }
+119 verbose cache add name="zone.js" spec="^0.5.10" args=["zone.js","^0.5.10"]
+120 verbose parsed url { protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: '^0.5.10',
+120 verbose parsed url   path: '^0.5.10',
+120 verbose parsed url   href: '^0.5.10' }
+121 verbose addNamed [ 'zone.js', '^0.5.10' ]
+122 verbose addNamed [ null, '>=0.5.10-0 <0.6.0-0' ]
+123 silly lockFile ae157f69-zone-js-0-5-10 zone.js@^0.5.10
+124 verbose lock zone.js@^0.5.10 /home/gabriel/.npm/ae157f69-zone-js-0-5-10.lock
+125 silly addNameRange { name: 'zone.js', range: '>=0.5.10-0 <0.6.0-0', hasData: false }
+126 verbose request where is /zone.js
+127 verbose request registry https://registry.npmjs.org/
+128 verbose url raw /zone.js
+129 verbose url resolving [ 'https://registry.npmjs.org/', './zone.js' ]
+130 verbose url resolved https://registry.npmjs.org/zone.js
+131 verbose request where is https://registry.npmjs.org/zone.js
+132 info trying registry request attempt 1 at 23:04:31
+133 verbose etag "3GKWDU3GG4G6O0C93TO8BD8RU"
+134 http GET https://registry.npmjs.org/zone.js
+135 http 304 https://registry.npmjs.org/zone.js
+136 silly registry.get cb [ 304,
+136 silly registry.get   { date: 'Fri, 05 Feb 2016 22:04:33 GMT',
+136 silly registry.get     via: '1.1 varnish',
+136 silly registry.get     'cache-control': 'max-age=300',
+136 silly registry.get     etag: '"3GKWDU3GG4G6O0C93TO8BD8RU"',
+136 silly registry.get     age: '0',
+136 silly registry.get     connection: 'keep-alive',
+136 silly registry.get     'x-served-by': 'cache-lhr6329-LHR',
+136 silly registry.get     'x-cache': 'HIT',
+136 silly registry.get     'x-cache-hits': '1',
+136 silly registry.get     'x-timer': 'S1454709873.196603,VS0,VE356',
+136 silly registry.get     vary: 'Accept' } ]
+137 verbose etag https://registry.npmjs.org/zone.js from cache
+138 silly addNameRange number 2 { name: 'zone.js', range: '>=0.5.10-0 <0.6.0-0', hasData: true }
+139 silly addNameRange versions [ 'zone.js',
+139 silly addNameRange   [ '0.1.0',
+139 silly addNameRange     '0.1.1',
+139 silly addNameRange     '0.2.0',
+139 silly addNameRange     '0.2.1',
+139 silly addNameRange     '0.2.3',
+139 silly addNameRange     '0.2.2',
+139 silly addNameRange     '0.2.4',
+139 silly addNameRange     '0.3.0',
+139 silly addNameRange     '0.4.0',
+139 silly addNameRange     '0.4.1',
+139 silly addNameRange     '0.4.2',
+139 silly addNameRange     '0.4.3',
+139 silly addNameRange     '0.4.4',
+139 silly addNameRange     '0.5.0',
+139 silly addNameRange     '0.5.1',
+139 silly addNameRange     '0.5.2',
+139 silly addNameRange     '0.5.3',
+139 silly addNameRange     '0.5.4',
+139 silly addNameRange     '0.5.5',
+139 silly addNameRange     '0.5.6',
+139 silly addNameRange     '0.5.7',
+139 silly addNameRange     '0.5.8',
+139 silly addNameRange     '0.5.9',
+139 silly addNameRange     '0.5.10',
+139 silly addNameRange     '0.5.11',
+139 silly addNameRange     '0.5.12',
+139 silly addNameRange     '0.5.13' ] ]
+140 verbose addNamed [ 'zone.js', '0.5.13' ]
+141 verbose addNamed [ '0.5.13', '0.5.13' ]
+142 silly lockFile cfa0cba5-zone-js-0-5-13 zone.js@0.5.13
+143 verbose lock zone.js@0.5.13 /home/gabriel/.npm/cfa0cba5-zone-js-0-5-13.lock
+144 silly lockFile cfa0cba5-zone-js-0-5-13 zone.js@0.5.13
+145 silly lockFile cfa0cba5-zone-js-0-5-13 zone.js@0.5.13
+146 silly lockFile ae157f69-zone-js-0-5-10 zone.js@^0.5.10
+147 silly lockFile ae157f69-zone-js-0-5-10 zone.js@^0.5.10
+148 silly resolved [ { name: 'zone.js',
+148 silly resolved     version: '0.5.13',
+148 silly resolved     description: 'Zones for JavaScript',
+148 silly resolved     main: 'build/lib/zone.js',
+148 silly resolved     typings: 'build/lib/core.d.ts',
+148 silly resolved     files: [ 'lib', 'build', 'dist' ],
+148 silly resolved     directories: { lib: 'lib', test: 'test' },
+148 silly resolved     scripts:
+148 silly resolved      { postinstall: 'tsd install',
+148 silly resolved        prepublish: 'tsc && gulp build',
+148 silly resolved        tsc: 'tsc',
+148 silly resolved        'tsc:w': 'tsc -w',
+148 silly resolved        test: 'karma start karma.conf.js',
+148 silly resolved        serve: 'python -m SimpleHTTPServer 8000' },
+148 silly resolved     repository: { type: 'git', url: 'git://github.com/angular/zone.js.git' },
+148 silly resolved     author: { name: 'Brian Ford' },
+148 silly resolved     license: 'MIT',
+148 silly resolved     bugs: { url: 'https://github.com/angular/zone.js/issues' },
+148 silly resolved     dependencies: { 'es6-promise': '^3.0.2' },
+148 silly resolved     devDependencies:
+148 silly resolved      { gulp: '^3.8.11',
+148 silly resolved        'gulp-util': '^3.0.7',
+148 silly resolved        'gulp-rename': '^1.2.2',
+148 silly resolved        'gulp-uglify': '^1.2.0',
+148 silly resolved        'jasmine-core': '^2.2.0',
+148 silly resolved        'karma-firefox-launcher': '^0.1.4',
+148 silly resolved        'karma-safari-launcher': '^0.1.1',
+148 silly resolved        'karma-sauce-launcher': '^0.2.10',
+148 silly resolved        karma: '^0.13.14',
+148 silly resolved        'karma-chrome-launcher': '^0.2.1',
+148 silly resolved        'karma-jasmine': '^0.3.6',
+148 silly resolved        'karma-sourcemap-loader': '^0.3.6',
+148 silly resolved        'karma-webpack': '^1.7.0',
+148 silly resolved        'ts-loader': '^0.6.0',
+148 silly resolved        tsd: '^0.6.5',
+148 silly resolved        typescript: '^1.7.3',
+148 silly resolved        webpack: '^1.12.2',
+148 silly resolved        'nodejs-websocket': '^1.2.0',
+148 silly resolved        'vinyl-buffer': '^1.0.0',
+148 silly resolved        'vinyl-source-stream': '^1.1.0' },
+148 silly resolved     gitHead: '3504146d9779380518377db4f0aa729f30bb23a8',
+148 silly resolved     homepage: 'https://github.com/angular/zone.js#readme',
+148 silly resolved     _id: 'zone.js@0.5.13',
+148 silly resolved     _shasum: '7c7e2cff222c60e5daf7ec11f383520b522de3bc',
+148 silly resolved     _from: 'zone.js@^0.5.10',
+148 silly resolved     _npmVersion: '3.6.0',
+148 silly resolved     _nodeVersion: '5.5.0',
+148 silly resolved     _npmUser: { name: 'angularcore', email: 'angular-core+npm@google.com' },
+148 silly resolved     dist:
+148 silly resolved      { shasum: '7c7e2cff222c60e5daf7ec11f383520b522de3bc',
+148 silly resolved        tarball: 'http://registry.npmjs.org/zone.js/-/zone.js-0.5.13.tgz' },
+148 silly resolved     maintainers: [ [Object], [Object] ],
+148 silly resolved     _resolved: 'https://registry.npmjs.org/zone.js/-/zone.js-0.5.13.tgz',
+148 silly resolved     readme: 'ERROR: No README data found!' } ]
+149 info install zone.js@0.5.13 into /home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest
+150 info installOne zone.js@0.5.13
+151 verbose node_modules/angular2-rest/node_modules/zone.js unbuild
+152 verbose tar unpack /home/gabriel/.npm/zone.js/0.5.13/package.tgz
+153 silly lockFile 4b11aa6f-gular2-rest-node-modules-zone-js tar:///home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest/node_modules/zone.js
+154 verbose lock tar:///home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest/node_modules/zone.js /home/gabriel/.npm/4b11aa6f-gular2-rest-node-modules-zone-js.lock
+155 silly lockFile 33daa698-l-npm-zone-js-0-5-13-package-tgz tar:///home/gabriel/.npm/zone.js/0.5.13/package.tgz
+156 verbose lock tar:///home/gabriel/.npm/zone.js/0.5.13/package.tgz /home/gabriel/.npm/33daa698-l-npm-zone-js-0-5-13-package-tgz.lock
+157 silly gunzTarPerm modes [ '751', '640' ]
+158 silly gunzTarPerm extractEntry package.json
+159 silly gunzTarPerm modified mode [ 'package.json', 420, 416 ]
+160 silly gunzTarPerm extractEntry README.md
+161 silly gunzTarPerm modified mode [ 'README.md', 420, 416 ]
+162 silly gunzTarPerm extractEntry LICENSE
+163 silly gunzTarPerm modified mode [ 'LICENSE', 420, 416 ]
+164 silly gunzTarPerm extractEntry build/lib/core.js
+165 silly gunzTarPerm modified mode [ 'build/lib/core.js', 420, 416 ]
+166 silly gunzTarPerm extractEntry build/lib/keys.js
+167 silly gunzTarPerm modified mode [ 'build/lib/keys.js', 420, 416 ]
+168 silly gunzTarPerm extractEntry build/lib/microtask.js
+169 silly gunzTarPerm modified mode [ 'build/lib/microtask.js', 420, 416 ]
+170 silly gunzTarPerm extractEntry build/lib/utils.js
+171 silly gunzTarPerm modified mode [ 'build/lib/utils.js', 420, 416 ]
+172 silly gunzTarPerm extractEntry build/lib/wtf.js
+173 silly gunzTarPerm modified mode [ 'build/lib/wtf.js', 420, 416 ]
+174 silly gunzTarPerm extractEntry build/lib/zone.js
+175 silly gunzTarPerm modified mode [ 'build/lib/zone.js', 420, 416 ]
+176 silly gunzTarPerm extractEntry build/lib/patch/websocket.js
+177 silly gunzTarPerm modified mode [ 'build/lib/patch/websocket.js', 420, 416 ]
+178 silly gunzTarPerm extractEntry build/lib/patch/register-element.js
+179 silly gunzTarPerm modified mode [ 'build/lib/patch/register-element.js', 420, 416 ]
+180 silly gunzTarPerm extractEntry build/lib/patch/define-property.js
+181 silly gunzTarPerm modified mode [ 'build/lib/patch/define-property.js', 420, 416 ]
+182 silly gunzTarPerm extractEntry build/lib/patch/property-descriptor.js
+183 silly gunzTarPerm modified mode [ 'build/lib/patch/property-descriptor.js', 420, 416 ]
+184 silly gunzTarPerm extractEntry build/lib/patch/event-target.js
+185 silly gunzTarPerm modified mode [ 'build/lib/patch/event-target.js', 420, 416 ]
+186 silly gunzTarPerm extractEntry build/lib/patch/promise.js
+187 silly gunzTarPerm modified mode [ 'build/lib/patch/promise.js', 420, 416 ]
+188 silly gunzTarPerm extractEntry build/lib/patch/file-reader.js
+189 silly gunzTarPerm modified mode [ 'build/lib/patch/file-reader.js', 420, 416 ]
+190 silly gunzTarPerm extractEntry build/lib/patch/mutation-observer.js
+191 silly gunzTarPerm modified mode [ 'build/lib/patch/mutation-observer.js', 420, 416 ]
+192 silly gunzTarPerm extractEntry build/lib/patch/functions.js
+193 silly gunzTarPerm modified mode [ 'build/lib/patch/functions.js', 420, 416 ]
+194 silly gunzTarPerm extractEntry build/lib/patch/browser.js
+195 silly gunzTarPerm modified mode [ 'build/lib/patch/browser.js', 420, 416 ]
+196 silly gunzTarPerm extractEntry build/lib/patch/geolocation.js
+197 silly gunzTarPerm modified mode [ 'build/lib/patch/geolocation.js', 420, 416 ]
+198 silly gunzTarPerm extractEntry build/lib/patch/property-descriptor.d.ts
+199 silly gunzTarPerm modified mode [ 'build/lib/patch/property-descriptor.d.ts', 420, 416 ]
+200 silly gunzTarPerm extractEntry build/lib/patch/geolocation.d.ts
+201 silly gunzTarPerm modified mode [ 'build/lib/patch/geolocation.d.ts', 420, 416 ]
+202 silly gunzTarPerm extractEntry build/lib/patch/functions.d.ts
+203 silly gunzTarPerm modified mode [ 'build/lib/patch/functions.d.ts', 420, 416 ]
+204 silly gunzTarPerm extractEntry build/lib/patch/promise.d.ts
+205 silly gunzTarPerm modified mode [ 'build/lib/patch/promise.d.ts', 420, 416 ]
+206 silly gunzTarPerm extractEntry build/lib/patch/file-reader.d.ts
+207 silly gunzTarPerm modified mode [ 'build/lib/patch/file-reader.d.ts', 420, 416 ]
+208 silly gunzTarPerm extractEntry build/lib/patch/mutation-observer.d.ts
+209 silly gunzTarPerm modified mode [ 'build/lib/patch/mutation-observer.d.ts', 420, 416 ]
+210 silly gunzTarPerm extractEntry build/lib/patch/event-target.d.ts
+211 silly gunzTarPerm modified mode [ 'build/lib/patch/event-target.d.ts', 420, 416 ]
+212 silly gunzTarPerm extractEntry build/lib/patch/register-element.d.ts
+213 silly gunzTarPerm modified mode [ 'build/lib/patch/register-element.d.ts', 420, 416 ]
+214 silly gunzTarPerm extractEntry build/lib/patch/define-property.d.ts
+215 silly gunzTarPerm modified mode [ 'build/lib/patch/define-property.d.ts', 420, 416 ]
+216 silly gunzTarPerm extractEntry build/lib/patch/websocket.d.ts
+217 silly gunzTarPerm modified mode [ 'build/lib/patch/websocket.d.ts', 420, 416 ]
+218 silly gunzTarPerm extractEntry build/lib/patch/browser.d.ts
+219 silly gunzTarPerm modified mode [ 'build/lib/patch/browser.d.ts', 420, 416 ]
+220 silly gunzTarPerm extractEntry build/lib/jasmine/patch.js
+221 silly gunzTarPerm modified mode [ 'build/lib/jasmine/patch.js', 420, 416 ]
+222 silly gunzTarPerm extractEntry build/lib/jasmine/patch.d.ts
+223 silly gunzTarPerm modified mode [ 'build/lib/jasmine/patch.d.ts', 420, 416 ]
+224 silly gunzTarPerm extractEntry build/lib/core.d.ts
+225 silly gunzTarPerm modified mode [ 'build/lib/core.d.ts', 420, 416 ]
+226 silly gunzTarPerm extractEntry build/lib/utils.d.ts
+227 silly gunzTarPerm modified mode [ 'build/lib/utils.d.ts', 420, 416 ]
+228 silly gunzTarPerm extractEntry build/lib/keys.d.ts
+229 silly gunzTarPerm modified mode [ 'build/lib/keys.d.ts', 420, 416 ]
+230 silly gunzTarPerm extractEntry build/lib/wtf.d.ts
+231 silly gunzTarPerm modified mode [ 'build/lib/wtf.d.ts', 420, 416 ]
+232 silly gunzTarPerm extractEntry build/lib/browser/jasmine-patch.js
+233 silly gunzTarPerm modified mode [ 'build/lib/browser/jasmine-patch.js', 420, 416 ]
+234 silly gunzTarPerm extractEntry build/lib/browser/long-stack-trace-zone.js
+235 silly gunzTarPerm modified mode [ 'build/lib/browser/long-stack-trace-zone.js', 420, 416 ]
+236 silly gunzTarPerm extractEntry build/lib/browser/zone-microtask.js
+237 silly gunzTarPerm modified mode [ 'build/lib/browser/zone-microtask.js', 420, 416 ]
+238 silly gunzTarPerm extractEntry build/lib/browser/zone.js
+239 silly gunzTarPerm modified mode [ 'build/lib/browser/zone.js', 420, 416 ]
+240 silly gunzTarPerm extractEntry build/lib/browser/jasmine-patch.d.ts
+241 silly gunzTarPerm modified mode [ 'build/lib/browser/jasmine-patch.d.ts', 420, 416 ]
+242 silly gunzTarPerm extractEntry build/lib/browser/long-stack-trace-zone.d.ts
+243 silly gunzTarPerm modified mode [ 'build/lib/browser/long-stack-trace-zone.d.ts', 420, 416 ]
+244 silly gunzTarPerm extractEntry build/lib/browser/zone-microtask.d.ts
+245 silly gunzTarPerm modified mode [ 'build/lib/browser/zone-microtask.d.ts', 420, 416 ]
+246 silly gunzTarPerm extractEntry build/lib/browser/zone.d.ts
+247 silly gunzTarPerm modified mode [ 'build/lib/browser/zone.d.ts', 420, 416 ]
+248 silly gunzTarPerm extractEntry build/lib/zone.d.ts
+249 silly gunzTarPerm modified mode [ 'build/lib/zone.d.ts', 420, 416 ]
+250 silly gunzTarPerm extractEntry build/lib/microtask.d.ts
+251 silly gunzTarPerm modified mode [ 'build/lib/microtask.d.ts', 420, 416 ]
+252 silly gunzTarPerm extractEntry build/lib/zones/long-stack-trace.js
+253 silly gunzTarPerm modified mode [ 'build/lib/zones/long-stack-trace.js', 420, 416 ]
+254 silly gunzTarPerm extractEntry build/lib/zones/long-stack-trace.d.ts
+255 silly gunzTarPerm modified mode [ 'build/lib/zones/long-stack-trace.d.ts', 420, 416 ]
+256 silly gunzTarPerm extractEntry build/test/zone.spec.js
+257 silly gunzTarPerm modified mode [ 'build/test/zone.spec.js', 420, 416 ]
+258 silly gunzTarPerm extractEntry build/test/wtf_mock.js
+259 silly gunzTarPerm modified mode [ 'build/test/wtf_mock.js', 420, 416 ]
+260 silly gunzTarPerm extractEntry build/test/browser_entry_point_with_microtask.js
+261 silly gunzTarPerm modified mode [ 'build/test/browser_entry_point_with_microtask.js', 420, 416 ]
+262 silly gunzTarPerm extractEntry build/test/util.spec.js
+263 silly gunzTarPerm modified mode [ 'build/test/util.spec.js', 420, 416 ]
+264 silly gunzTarPerm extractEntry build/test/commonjs.spec.js
+265 silly gunzTarPerm modified mode [ 'build/test/commonjs.spec.js', 420, 416 ]
+266 silly gunzTarPerm extractEntry build/test/util.js
+267 silly gunzTarPerm modified mode [ 'build/test/util.js', 420, 416 ]
+268 silly gunzTarPerm extractEntry build/test/counting-zone.js
+269 silly gunzTarPerm modified mode [ 'build/test/counting-zone.js', 420, 416 ]
+270 silly gunzTarPerm extractEntry build/test/test-env-setup.js
+271 silly gunzTarPerm modified mode [ 'build/test/test-env-setup.js', 420, 416 ]
+272 silly gunzTarPerm extractEntry build/test/browser_entry_point.js
+273 silly gunzTarPerm modified mode [ 'build/test/browser_entry_point.js', 420, 416 ]
+274 silly gunzTarPerm extractEntry build/test/long-stack-trace-zone.spec.js
+275 silly gunzTarPerm modified mode [ 'build/test/long-stack-trace-zone.spec.js', 420, 416 ]
+276 silly gunzTarPerm extractEntry build/test/microtasks.spec.js
+277 silly gunzTarPerm modified mode [ 'build/test/microtasks.spec.js', 420, 416 ]
+278 silly gunzTarPerm extractEntry build/test/counting-zone.d.ts
+279 silly gunzTarPerm modified mode [ 'build/test/counting-zone.d.ts', 420, 416 ]
+280 silly gunzTarPerm extractEntry build/test/microtasks.spec.d.ts
+281 silly gunzTarPerm modified mode [ 'build/test/microtasks.spec.d.ts', 420, 416 ]
+282 silly gunzTarPerm extractEntry build/test/patch/setTimeout.spec.js
+283 silly gunzTarPerm modified mode [ 'build/test/patch/setTimeout.spec.js', 420, 416 ]
+284 silly gunzTarPerm extractEntry build/test/patch/MutationObserver.spec.js
+285 silly gunzTarPerm modified mode [ 'build/test/patch/MutationObserver.spec.js', 420, 416 ]
+286 silly gunzTarPerm extractEntry build/test/patch/Promise.spec.js
+287 silly gunzTarPerm modified mode [ 'build/test/patch/Promise.spec.js', 420, 416 ]
+288 silly gunzTarPerm extractEntry build/test/patch/WebSocket.spec.js
+289 silly gunzTarPerm modified mode [ 'build/test/patch/WebSocket.spec.js', 420, 416 ]
+290 silly gunzTarPerm extractEntry build/test/patch/XMLHttpRequest.spec.js
+291 silly gunzTarPerm modified mode [ 'build/test/patch/XMLHttpRequest.spec.js', 420, 416 ]
+292 silly gunzTarPerm extractEntry build/test/patch/HTMLImports.spec.js
+293 silly gunzTarPerm modified mode [ 'build/test/patch/HTMLImports.spec.js', 420, 416 ]
+294 silly gunzTarPerm extractEntry build/test/patch/element.spec.js
+295 silly gunzTarPerm modified mode [ 'build/test/patch/element.spec.js', 420, 416 ]
+296 silly gunzTarPerm extractEntry build/test/patch/geolocation.spec.manual.js
+297 silly gunzTarPerm modified mode [ 'build/test/patch/geolocation.spec.manual.js', 420, 416 ]
+298 silly gunzTarPerm extractEntry build/test/patch/registerElement.spec.js
+299 silly gunzTarPerm modified mode [ 'build/test/patch/registerElement.spec.js', 420, 416 ]
+300 silly gunzTarPerm extractEntry build/test/patch/requestAnimationFrame.spec.js
+301 silly gunzTarPerm modified mode [ 'build/test/patch/requestAnimationFrame.spec.js', 420, 416 ]
+302 silly gunzTarPerm extractEntry build/test/patch/setInterval.spec.js
+303 silly gunzTarPerm modified mode [ 'build/test/patch/setInterval.spec.js', 420, 416 ]
+304 silly gunzTarPerm extractEntry build/test/patch/FileReader.spec.js
+305 silly gunzTarPerm modified mode [ 'build/test/patch/FileReader.spec.js', 420, 416 ]
+306 silly gunzTarPerm extractEntry build/test/patch/Promise.spec.d.ts
+307 silly gunzTarPerm modified mode [ 'build/test/patch/Promise.spec.d.ts', 420, 416 ]
+308 silly gunzTarPerm extractEntry build/test/patch/FileReader.spec.d.ts
+309 silly gunzTarPerm modified mode [ 'build/test/patch/FileReader.spec.d.ts', 420, 416 ]
+310 silly gunzTarPerm extractEntry build/test/patch/geolocation.spec.manual.d.ts
+311 silly gunzTarPerm modified mode [ 'build/test/patch/geolocation.spec.manual.d.ts', 420, 416 ]
+312 silly gunzTarPerm extractEntry build/test/patch/WebSocket.spec.d.ts
+313 silly gunzTarPerm modified mode [ 'build/test/patch/WebSocket.spec.d.ts', 420, 416 ]
+314 silly gunzTarPerm extractEntry build/test/patch/registerElement.spec.d.ts
+315 silly gunzTarPerm modified mode [ 'build/test/patch/registerElement.spec.d.ts', 420, 416 ]
+316 silly gunzTarPerm extractEntry build/test/patch/MutationObserver.spec.d.ts
+317 silly gunzTarPerm modified mode [ 'build/test/patch/MutationObserver.spec.d.ts', 420, 416 ]
+318 silly gunzTarPerm extractEntry build/test/patch/requestAnimationFrame.spec.d.ts
+319 silly gunzTarPerm modified mode [ 'build/test/patch/requestAnimationFrame.spec.d.ts', 420, 416 ]
+320 silly gunzTarPerm extractEntry build/test/patch/XMLHttpRequest.spec.d.ts
+321 silly gunzTarPerm modified mode [ 'build/test/patch/XMLHttpRequest.spec.d.ts', 420, 416 ]
+322 silly gunzTarPerm extractEntry build/test/patch/setInterval.spec.d.ts
+323 silly gunzTarPerm modified mode [ 'build/test/patch/setInterval.spec.d.ts', 420, 416 ]
+324 silly gunzTarPerm extractEntry build/test/patch/HTMLImports.spec.d.ts
+325 silly gunzTarPerm modified mode [ 'build/test/patch/HTMLImports.spec.d.ts', 420, 416 ]
+326 silly gunzTarPerm extractEntry build/test/patch/setTimeout.spec.d.ts
+327 silly gunzTarPerm modified mode [ 'build/test/patch/setTimeout.spec.d.ts', 420, 416 ]
+328 silly gunzTarPerm extractEntry build/test/patch/element.spec.d.ts
+329 silly gunzTarPerm modified mode [ 'build/test/patch/element.spec.d.ts', 420, 416 ]
+330 silly gunzTarPerm extractEntry build/test/test-env-setup.d.ts
+331 silly gunzTarPerm modified mode [ 'build/test/test-env-setup.d.ts', 420, 416 ]
+332 silly gunzTarPerm extractEntry build/test/integration/brick.spec.js
+333 silly gunzTarPerm modified mode [ 'build/test/integration/brick.spec.js', 420, 416 ]
+334 silly gunzTarPerm extractEntry build/test/integration/brick.spec.d.ts
+335 silly gunzTarPerm modified mode [ 'build/test/integration/brick.spec.d.ts', 420, 416 ]
+336 silly gunzTarPerm extractEntry build/test/util.d.ts
+337 silly gunzTarPerm modified mode [ 'build/test/util.d.ts', 420, 416 ]
+338 silly gunzTarPerm extractEntry build/test/long-stack-trace-zone.spec.d.ts
+339 silly gunzTarPerm modified mode [ 'build/test/long-stack-trace-zone.spec.d.ts', 420, 416 ]
+340 silly gunzTarPerm extractEntry build/test/util.spec.d.ts
+341 silly gunzTarPerm modified mode [ 'build/test/util.spec.d.ts', 420, 416 ]
+342 silly gunzTarPerm extractEntry build/test/commonjs.spec.d.ts
+343 silly gunzTarPerm modified mode [ 'build/test/commonjs.spec.d.ts', 420, 416 ]
+344 silly gunzTarPerm extractEntry build/test/wtf_mock.d.ts
+345 silly gunzTarPerm modified mode [ 'build/test/wtf_mock.d.ts', 420, 416 ]
+346 silly gunzTarPerm extractEntry build/test/browser_entry_point_with_microtask.d.ts
+347 silly gunzTarPerm modified mode [ 'build/test/browser_entry_point_with_microtask.d.ts',
+347 silly gunzTarPerm   420,
+347 silly gunzTarPerm   416 ]
+348 silly gunzTarPerm extractEntry build/test/zone.spec.d.ts
+349 silly gunzTarPerm modified mode [ 'build/test/zone.spec.d.ts', 420, 416 ]
+350 silly gunzTarPerm extractEntry build/test/browser_entry_point.d.ts
+351 silly gunzTarPerm modified mode [ 'build/test/browser_entry_point.d.ts', 420, 416 ]
+352 silly gunzTarPerm extractEntry dist/jasmine-patch.js
+353 silly gunzTarPerm modified mode [ 'dist/jasmine-patch.js', 420, 416 ]
+354 silly gunzTarPerm extractEntry dist/jasmine-patch.min.js
+355 silly gunzTarPerm modified mode [ 'dist/jasmine-patch.min.js', 420, 416 ]
+356 silly gunzTarPerm extractEntry dist/long-stack-trace-zone.js
+357 silly gunzTarPerm modified mode [ 'dist/long-stack-trace-zone.js', 420, 416 ]
+358 silly gunzTarPerm extractEntry dist/long-stack-trace-zone.min.js
+359 silly gunzTarPerm modified mode [ 'dist/long-stack-trace-zone.min.js', 420, 416 ]
+360 silly gunzTarPerm extractEntry dist/zone-microtask.js
+361 silly gunzTarPerm modified mode [ 'dist/zone-microtask.js', 420, 416 ]
+362 silly gunzTarPerm extractEntry dist/zone-microtask.min.js
+363 silly gunzTarPerm modified mode [ 'dist/zone-microtask.min.js', 420, 416 ]
+364 silly gunzTarPerm extractEntry dist/zone.js
+365 silly gunzTarPerm modified mode [ 'dist/zone.js', 420, 416 ]
+366 silly gunzTarPerm extractEntry dist/zone.min.js
+367 silly gunzTarPerm modified mode [ 'dist/zone.min.js', 420, 416 ]
+368 silly gunzTarPerm extractEntry lib/browser/jasmine-patch.ts
+369 silly gunzTarPerm modified mode [ 'lib/browser/jasmine-patch.ts', 420, 416 ]
+370 silly gunzTarPerm extractEntry lib/browser/long-stack-trace-zone.ts
+371 silly gunzTarPerm modified mode [ 'lib/browser/long-stack-trace-zone.ts', 420, 416 ]
+372 silly gunzTarPerm extractEntry lib/browser/zone-microtask.ts
+373 silly gunzTarPerm modified mode [ 'lib/browser/zone-microtask.ts', 420, 416 ]
+374 silly gunzTarPerm extractEntry lib/browser/zone.ts
+375 silly gunzTarPerm modified mode [ 'lib/browser/zone.ts', 420, 416 ]
+376 silly gunzTarPerm extractEntry lib/core.ts
+377 silly gunzTarPerm modified mode [ 'lib/core.ts', 420, 416 ]
+378 silly gunzTarPerm extractEntry lib/jasmine/patch.ts
+379 silly gunzTarPerm modified mode [ 'lib/jasmine/patch.ts', 420, 416 ]
+380 silly gunzTarPerm extractEntry lib/keys.ts
+381 silly gunzTarPerm modified mode [ 'lib/keys.ts', 420, 416 ]
+382 silly gunzTarPerm extractEntry lib/microtask.ts
+383 silly gunzTarPerm modified mode [ 'lib/microtask.ts', 420, 416 ]
+384 silly gunzTarPerm extractEntry lib/patch/geolocation.ts
+385 silly gunzTarPerm modified mode [ 'lib/patch/geolocation.ts', 420, 416 ]
+386 silly gunzTarPerm extractEntry lib/patch/browser.ts
+387 silly gunzTarPerm modified mode [ 'lib/patch/browser.ts', 420, 416 ]
+388 silly gunzTarPerm extractEntry lib/patch/event-target.ts
+389 silly gunzTarPerm modified mode [ 'lib/patch/event-target.ts', 420, 416 ]
+390 silly gunzTarPerm extractEntry lib/patch/file-reader.ts
+391 silly gunzTarPerm modified mode [ 'lib/patch/file-reader.ts', 420, 416 ]
+392 silly gunzTarPerm extractEntry lib/patch/functions.ts
+393 silly gunzTarPerm modified mode [ 'lib/patch/functions.ts', 420, 416 ]
+394 silly gunzTarPerm extractEntry lib/patch/define-property.ts
+395 silly gunzTarPerm modified mode [ 'lib/patch/define-property.ts', 420, 416 ]
+396 silly gunzTarPerm extractEntry lib/patch/mutation-observer.ts
+397 silly gunzTarPerm modified mode [ 'lib/patch/mutation-observer.ts', 420, 416 ]
+398 silly gunzTarPerm extractEntry lib/patch/promise.ts
+399 silly gunzTarPerm modified mode [ 'lib/patch/promise.ts', 420, 416 ]
+400 silly gunzTarPerm extractEntry lib/patch/property-descriptor.ts
+401 silly gunzTarPerm modified mode [ 'lib/patch/property-descriptor.ts', 420, 416 ]
+402 silly gunzTarPerm extractEntry lib/patch/register-element.ts
+403 silly gunzTarPerm modified mode [ 'lib/patch/register-element.ts', 420, 416 ]
+404 silly gunzTarPerm extractEntry lib/patch/websocket.ts
+405 silly gunzTarPerm modified mode [ 'lib/patch/websocket.ts', 420, 416 ]
+406 silly gunzTarPerm extractEntry lib/utils.ts
+407 silly gunzTarPerm modified mode [ 'lib/utils.ts', 420, 416 ]
+408 silly gunzTarPerm extractEntry lib/wtf.ts
+409 silly gunzTarPerm modified mode [ 'lib/wtf.ts', 420, 416 ]
+410 silly gunzTarPerm extractEntry lib/zone.ts
+411 silly gunzTarPerm modified mode [ 'lib/zone.ts', 420, 416 ]
+412 silly gunzTarPerm extractEntry lib/zones/long-stack-trace.ts
+413 silly gunzTarPerm modified mode [ 'lib/zones/long-stack-trace.ts', 420, 416 ]
+414 silly lockFile 4b11aa6f-gular2-rest-node-modules-zone-js tar:///home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest/node_modules/zone.js
+415 silly lockFile 4b11aa6f-gular2-rest-node-modules-zone-js tar:///home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest/node_modules/zone.js
+416 silly lockFile 33daa698-l-npm-zone-js-0-5-13-package-tgz tar:///home/gabriel/.npm/zone.js/0.5.13/package.tgz
+417 silly lockFile 33daa698-l-npm-zone-js-0-5-13-package-tgz tar:///home/gabriel/.npm/zone.js/0.5.13/package.tgz
+418 info preinstall zone.js@0.5.13
+419 verbose readDependencies using package.json deps
+420 verbose readDependencies using package.json deps
+421 silly resolved []
+422 verbose about to build /home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest/node_modules/zone.js
+423 info build /home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest/node_modules/zone.js
+424 verbose linkStuff [ false,
+424 verbose linkStuff   false,
+424 verbose linkStuff   false,
+424 verbose linkStuff   '/home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest/node_modules' ]
+425 info linkStuff zone.js@0.5.13
+426 verbose linkBins zone.js@0.5.13
+427 verbose linkMans zone.js@0.5.13
+428 verbose rebuildBundles zone.js@0.5.13
+429 info install zone.js@0.5.13
+430 info postinstall zone.js@0.5.13
+431 verbose unsafe-perm in lifecycle true
+432 info zone.js@0.5.13 Failed to exec postinstall script
+433 verbose node_modules/angular2-rest/node_modules/zone.js unbuild
+434 info preuninstall zone.js@0.5.13
+435 info uninstall zone.js@0.5.13
+436 verbose false,/home/gabriel/Projects/CRM-angular-test/node_modules,/home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest/node_modules unbuild zone.js@0.5.13
+437 info postuninstall zone.js@0.5.13
+438 verbose about to build /home/gabriel/Projects/CRM-angular-test/node_modules/angular2-rest
+439 verbose node_modules/angular2-rest unbuild
+440 info preuninstall angular2-rest@0.1.0
+441 info uninstall angular2-rest@0.1.0
+442 verbose true,/home/gabriel/Projects/CRM-angular-test/node_modules,/home/gabriel/Projects/CRM-angular-test/node_modules unbuild angular2-rest@0.1.0
+443 info postuninstall angular2-rest@0.1.0
+444 error zone.js@0.5.13 postinstall: `tsd install`
+444 error Exit status 127
+445 error Failed at the zone.js@0.5.13 postinstall script.
+445 error This is most likely a problem with the zone.js package,
+445 error not with npm itself.
+445 error Tell the author that this fails on your system:
+445 error     tsd install
+445 error You can get their info via:
+445 error     npm owner ls zone.js
+445 error There is likely additional logging output above.
+446 error System Linux 3.13.0-63-generic
+447 error command "node" "/usr/bin/npm" "install" "angular2-rest" "--save"
+448 error cwd /home/gabriel/Projects/CRM-angular-test
+449 error node -v v0.10.29
+450 error npm -v 1.4.17
+451 error code ELIFECYCLE
+452 verbose exit [ 1, true ]
